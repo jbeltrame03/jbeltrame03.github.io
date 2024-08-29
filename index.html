@@ -1,59 +1,125 @@
-
-
 <!DOCTYPE html>
-<html>
- 
-<style>
-    body{
-        background-color: #073b4c;
-    }
-    header{
-        text-align: center;
-        font-size: 50px;
-        font-family: 'Times New Roman', Times, serif;
-        color: #ffd166;
-    }
-    ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #073b4c;
-    }
-    li{
-        float: left;
-    }
-    li a{
-        display: block;
-        color: #ffd166;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    li a:hover{
-        background-color: #118ab2;
-    }
-
-</style>
-<body>
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="#contact">Resume</a></li>
-        <li><a href="#about">Contact Information</a></li>
-    </ul>
-</body>
+<html lang="en">
 <head>
-    <title>
-        Joshua Beltrame Portfolio
-    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Engineering Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    
 </head>
- 
+<body>
+
 <header>
-    <b>Joshua Beltrame Portfolio</b>
+    <h1>Josh Beltrame</h1>
+    <nav>
+        <div class="nav-links">
+            <a href="resume.pdf" target="_blank">Resume</a>
+           <a href="https://www.linkedin.com/in/joshbeltrame" target="_blank" class="linkedin-link">
+                <img src="linkedinLogo.png" alt="LinkedIn" height="200" width="200"></a>
+        </div>
+        
+    </nav>
 </header>
 
 
- 
+<div class="container">
+
+    <!---
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm [Your Name], an engineering professional with expertise in [your field]. I have a passion for [related interest or specialty]. I am skilled in [list key skills] and have experience working on [type of projects].</p>
+    </section>
+    -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Experimental Aerodynamics Lab</h3>
+                <a href="315.html">
+                    <img src="testing.jpg" alt="Project 1">
+                </a>
+                
+                <p>Design, manufacture, and test the aerodynamic performance of a wing with a diamond airfoil in a low speed wind tunnel.</p>
+            </div>
+            <div class="project">
+                <h3>Beechcraft Model 18 Stability Analysis</h3>
+                <a href="stab.html">
+                    <img src="model18.jpg" alt="Project 2">
+                </a>
+                <p>Performed an in-depth analysis of a Beechcraft Model 18, obtaining different stability coefficients.</p>
+            </div>
+
+            <!--
+            <div class="project">
+                <h3>Project Title 3</h3>
+                <a href="https://link-to-project3.com">
+                    <img src="path/to/your/project-image3.jpg" alt="Project 3">
+                </a>
+                <p>Description of Project 3. Explain what it is, your role, and any technologies or skills used.</p>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <section id="classes">
+
+        <div class="class-list">
+            <h2>Classes Taken</h2>
+
+            <p>
+                
+                EE327 - Fundamentals of Electrical Engineering <br></br>
+                EE328 - Fundamentals of Electrical Engineering Lab<br></br>
+                AE307 - Incompressible Aerodynamics<br></br>
+                AE308 - Compressible Aerodynamics<br></br>
+                AE314 - Experimental Aerodynamics<br></br>
+                AE315 - Experimental Aerodynamics Lab<br></br>
+                AE316 - Aerospace Engineering materials<br></br>
+                AE318 - Aerospace Structure I<br></br>
+                AE403 - Jet Propulsion<br></br>
+                AE413 - Airplane Stability and Control<br></br>
+
+            <h2>Currently Taking</h2>
+
+            <p>
+                
+                AE415 - In-Flight Laboratory <br></br>
+                AE416 - Aerospace Structures & Instrumentations Lecture<br></br>
+                AE416 - Aerospace Structures & Instrumentations Lab<br></br>
+                AE418 - Aerospace Structures II<br></br>
+                AE420 - Aircraft Preliminary Design<br></br>
+                AE432 - Flight Dynamics and Control<br></br>
+                
+
+
+            </p>
+        </div>
+
+        <div class="software">
+        <h2>Software Used</h2>
+
+            <p>
+                
+                CATIA v5 <br></br>
+                Autodesk Fusion 365<br></br>
+                Autodesk Inventor<br></br>
+                OnShape<br></br>
+                Vehicle Sketch Pad (VSP)<br></br>
+                XFOIL<br></br>
+                XFLR5<br></br>
+                NX FEMAP<br></br>
+                
+                
+
+
+            </p>
+        </div>
+
+    </section>
+
+
+</div>
+
+
+</body>
 </html>
