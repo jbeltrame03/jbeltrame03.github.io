@@ -29,10 +29,13 @@ section {
     padding: 2rem 0;
 }
 .projects {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     gap: 1rem;
+    grid-template-columns: 50% 50%; /* Two columns, each 50% */
+
 }
+
 .project {
     background: #fff;
     border-radius: 8px;
