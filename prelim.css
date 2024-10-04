@@ -78,6 +78,7 @@ footer {
 .photo-container{
     text-align: center;
 }
+
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -123,4 +124,18 @@ nav .linkedin-link img {
     width: 24px; /* Small size for LinkedIn logo */
     height: 24px; /* Maintain aspect ratio */
     vertical-align: middle; /* Align with text */
+}
+
+.photo-grid-OML {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.photo-grid-OML img {
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 550px;
+    height: 250px;
 }
