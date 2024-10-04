@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aircraft Preliminary Design</title>
-    <link rel="stylesheet" href="315_style.css">
+    <link rel="stylesheet" href="prelim.css">
 </head>
 <body>
 
@@ -66,35 +66,98 @@
                 <li>More maneuverable than traditional cargo/utility aircraft</li>
                 <li>Use of batteries for all takeoffs, ascents, descents and landings</li>
             </ul>
-        </p>
 
-        <br></br>    
+        </p>
+        
 
 
         <p>
             <br></br>
-            <strong>Conclusions:</strong> 
+            <strong>Initial Weight Estimates:</strong> 
 
             <br></br>
 
-            Throughout this entire experiment, a lot was learned. 
-            Specifically, about the design process and iteration. 
-            I spent countless hours going back and forth, researching different materials and shapes for different spars, and then simulating them and then adding everything into the CAD design. 
-            Additionally, I learned a lot while doing the manufacturing.
-            pecifically, tolerancing when 3D printing and the need for this, as well as the importance to test material adhesion before assembly.
-
-            <br></br>
-
-            There are a few things that I think could have been done better.
-            As mentioned before, I think that the skin panels should have been attached using fusion with a soldering iron. 
-            I also think that a better material could have been chosen for the skin, such as monokote.
-            This wasn’t used as it would have had a higher cost, as we would have needed an iron and the material, as well as it wasn’t available in the time we needed it. 
-            Additionally, this could have all raised adhesion problems with the 3D printed ribs.
+            The first task that I performed was obtaining an approximate initial weight of the aircraft to serve as a starting point.
+            Employing methodology based on historic and legacy data, I was able to obtain an approximate weight that was based off of our mission plan.
+            This method did not have the highest accuracy, especially since it did not account for electric propulsion systems, however it provided a point to build from.
             
-        
+
         </p>
 
-        <br></br>
+        
+
+        <p>
+            <br></br>
+            <strong>Wing Planform Design:</strong> 
+
+            <br></br>
+
+            After the constraint analysis was done, I was able to begin work on the initial sizing of the wing planform for our aircraft.
+            Using the wing loading that was found from the constraint analysis, it was possible to obtain the required wing area for our initial weight estimate.
+            With the wing area, it was possible to start building the wing geometry.
+            Besides the wing area, we had 2 additional goal geometry parameters, our aspect ratio and taper ratio.
+            With the goal to optimize for highly efficient cruise, we set out to try and design a wing with an aspect ratio of 10 and taper ratio of 0.3.
+            These goals did not last long, as we had to reduce the aspect ratio down to 8 in order to create a more reasonable wing planform.
+            A lot of iteration occurred using different aerodynamic analysis software, specifically XFLR5 and VSP.
+            The wing planform was continuously tested and iterated, with the goal trying to improve our lift distribution to make it as elliptical as possible.
+            <br></br>
+            <div class="content-pics">
+                <img src="Lift Distribution.png" alt="Project Image">
+                Wing Planform Lift Distribution
+            </div>    
+            
+        </p>
+
+  
+
+        <p>
+            <br></br>
+            <strong>Wing Airfoil Selection:</strong> 
+
+            <br></br>
+
+            Wing airfoil selection was happening simultaneously as wing planform design.
+            In this process, many different airfoils were tested.
+            There were 3 main goals for airfoil selection:
+
+            <br></br>
+            <ul>
+            <li>Thicker airfoil at the root</li>
+            <ul>
+                <li>More space for fuel storage</li>
+                <li>Stronger structure</li>
+            </ul>
+            <li>High lift curve slope</li>
+            <li>High efficiency</li>
+            </ul> 
+
+            The preliminary search was looking through available experimental data of existing airfoils.
+            Then searching through extensive online databases.
+            The final wing airfoils that were selected:
+
+                <ul>
+                <li>Root:</li>
+                <ul>
+                    <li>NACA 64<sub>4</sub>-421</li>
+                </ul>
+                <li>Tip:</li>
+                <ul>
+                    <li>NACA 64<sub>2</sub>-415</li>
+                </ul>
+            </ul> 
+
+            <div class="photo-container">
+            <div class="photo-grid">
+                <img src="CLvA.png">
+                <img src="drag polar.png">
+                <img src="L_D_wing.png">
+                </div>
+                Lift coefficient vs angle of attack, drag polar and airfoil Cl/Cd at cruise Re<br></br>
+                [Blue - NACA 64<sub>4</sub>-421] [Red - NACA 64<sub>2</sub>-415]
+            </div> 
+            
+
+        </p>
 
     </section>
 
