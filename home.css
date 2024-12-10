@@ -28,30 +28,6 @@ nav a {
 section {
     padding: 2rem 0;
 }
-.projects {
-    display: grid;
-    flex-wrap: wrap;
-    gap: 1rem;
-    grid-template-columns: 50% 50%; /* Two columns, each 50% */
-
-}
-
-.project {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    flex: 1 1 calc(33% - 2rem);
-    margin: 1rem;
-    text-align: center;
-}
-
-.project img {
-    max-width: 100%;
-    border-radius: 8px;
-    cursor: pointer;
-
-}
 
 .project:hover img {
     transform: scale(1.02);
@@ -99,4 +75,80 @@ nav .linkedin-link img {
     margin: 1rem;
     text-align: center;
     width: 40%;
+}
+
+
+.projects {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 1rem;
+    grid-template-columns: 50% 50%; /* Two columns, each 50% */
+
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    grid-template-columns: 50% 50%; /* Two columns, each 50% */
+
+  }
+  
+  .image-grid a {
+    display: block;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid-item:hover img {
+    transform: scale(1.02);
+}   
+
+  .grid-item {
+
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    flex: 1 1 calc(33% - 2rem);
+    margin: 1rem;
+    text-align: center;
+
+  }
+  .grid-item img {
+    height: auto; 
+    width: auto; 
+    max-height: 700px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .grid-item p {
+    margin: 10px 0;
+    
+  }
+
+  .project {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    flex: 1 1 calc(33% - 2rem);
+    margin: 1rem;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+
 }
