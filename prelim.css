@@ -28,14 +28,16 @@ nav a {
 section {
     padding: 2rem 0;
 }
+
 .project-details {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
     width: 80%;
 }
+
 .project-details img {
     max-width: 100%;
     border-radius: 8px;
