@@ -27,9 +27,8 @@
         <br></br>
         <p><strong>Background:</strong> 
             <br></br>
-            For my senior design capstone class, I lead a team that was tasked with performing the design of a hybrid-electric military utility aircraft.
-            The vehicle had to be capable of flight powered by just generators, just batteries or a combination of both at once.
-            This project allowed me to learn about the design process for an aicraft as well as apply the skills and experience from my previous 3 years of classwork.
+            For my senior design capstone, I led a team tasked with designing a hybrid-electric military utility aircraft incorporating a Verdego Aero hybrid-electric powerplant. 
+            The aircraft was required to operate in three configurations: all-electric battery flight, generator-powered flight, and hybrid operation using both systems.
 
         </p>
 
@@ -38,8 +37,7 @@
         <p>
             <strong>Design Requirements:</strong>
             <br></br>
-            For this project, we worked with Verdego Aero, a company that builds a variety of generators that can be used for powering hybrid-electric aircraft.
-            The following were the list of requirements set forth in their proposal for the team:
+            The project was based on an RFP from Verdego Aero. The requirements included:
             <br></br>
 
             <ul>
@@ -58,176 +56,107 @@
             </ul>
 
             <br></br>
-            In addition to the required design goals, the team established some items that we wanted to implement to enhance the aircraft.
+            Additionally, the team derived a set of requirements to maximize the product: distributed electric propulsion (DEP), improved maneuverability, and battery-powered takeoff, climb, descent, and landing.
             <br></br>
 
-            <ul>
-                <li>Makes use of Distributed Electric Propulsion (DEP)</li>
-                <li>More maneuverable than traditional cargo/utility aircraft</li>
-                <li>Use of batteries for all takeoffs, ascents, descents and landings</li>
-            </ul>
-
+            <br></br>
+            The mission was defined as an infiltration/exfiltration profile. 
+            Upon approaching the target, the aircraft transitions to “Quiet Flight,” using batteries for cruise, descent, landing, takeoff, and climb-out to reduce noise levels.
+            While the aircraft is certified under Mil-Handbook, certain requirements from 14 CFR were taken to maximize safety and reliability of the aircraft.
+            <br></br>
         </p>
         
 
 
         <p>
             <br></br>
-            <strong>Initial Weight Estimates:</strong> 
+            <strong>Weight Estimation</strong> 
 
             <br></br>
 
-            The first task that I performed was obtaining an approximate initial weight of the aircraft to serve as a starting point.
-            Employing methodology based on historic and legacy data, I was able to obtain an approximate weight that was based off of our mission plan.
-            This method did not have the highest accuracy, especially since it did not account for electric propulsion systems, however it provided a point to build from.
-            
+            The initial weight estimate was calculated using fuel fractions for each mission segment. 
+            Extra fuel storage, up to 45 minutes of fuel reserves were added. 
+            Since the aircraft relied so heavily on battery power, extra fuel was essential in case in-flight battery issues occurred. 
+            Battery use was maximized, since their weight was a constant throughout the flight. 
+            The preliminary MTOW was 13,000 lb, refined to 12,250 lb using statistical weight buildup methods.
 
         </p>
 
         <p>
             <br></br>
-            <strong>Fuselage Design:</strong> 
+            <strong>Constraint Analysis and Performance Goals</strong> 
 
             <br></br>
 
-            After the wing and tail sizing was completed, I was able to start the process of initial fuselage sizing and lofting.
-            This process began with defining a payload volume that would be optimal for the payload weight.
-            We analyzed aircraft with similar payload capacities and we decided we wanted to have a lower payload density.
-            This decision was driven to enable the payload to be distributed over a larger area thus more versatility.
-            After the payload volume was decided, I designed the cockpit to fit the 95th percentile male, as this was the next constraining factor.
-            
+            Constraint analysis identified a wing loading of 32 lb/ft² and installed power of ~660 kW to meet a 1,500 ft/min climb rate. 
+            The cruise altitude was selected as 10,000 ft for unpressurized operation and reduced weight.
         </p>
 
         <p>
             <br></br>
-            <strong>Initial Outer Mold Line Design:</strong> 
+            <strong>Configuration and Layout</strong> 
 
             <br></br>
 
-            After all of the initial sizing finished, I went and created our initial outer mold line of the aircraft.
-            This served as a basis for the team to begin basic aerodynamic and stability analysis.
-            Additionally, it was made to be parameterized, so it could be a quick and easy method to visualize and changes that were made to the design.
+            The aircraft was designed as a small transport-class platform with a high-wing configuration for terrain flexibility and cargo access.
+            An initial V-tail configuration was selected for redundancy and increased stability with multiple high-torque electric motors.
+            This was later transitioned to a T-tail to improve tail effectiveness, reduce structural weight, and allow a smaller horizontal stabilizer.
             
-            <br></br>
 
-            <div class="content-pics">
-                <img src="Prelim/3 View Portfolio.png" alt="Project Image"  style="border-color: white;height: 400px;">
-                3 View Dimensioned Drawing of Aircraft    
-                <img src="Prelim/Isometric.png" alt="Project Image" style="border-color: white; height: 300px; width: auto;">
-                Isometric View of Iteration 1 Aircaft
-                <img src="Prelim/frontView.png" alt="Project Image" style="border-color: white; height: 200px; width: auto;">      
-                Front View of Iteration 1 Aircraft      
-            </div>  
-            
+            <br></br>
+            The aircraft incorporates two Verdego Aero VH-4T generators. 
+            In cruise, one powers the electric motors, while the second recharges batteries, providing redundancy and allowing generator-only operation if required. 
+            The generators are fuselage-mounted between the cockpit and cargo bay, isolated by firewalls.
+
+            <br></br>
+            To reduce cruise drag, retractable landing gear was employed. 
+            Due to the high-wing layout, a dedicated landing gear nacelle was used. 
+            Design challenges included sizing the landing gear to meet tip-back angle, terrain compatibility, structural strength, and managing internal volume restrictions.
+
+            <br></br>
+            Payload volume targets were established by benchmarking similar aircraft, resulting in a goal of 300 cubic feet. 
+            Standard 40×40 in shipping pallets were selected for versatility and compatibility throughout the world. 
+            Batteries were placed beneath the cargo floor to maintain center-of-gravity limits. 
+            To maximize the accessibility and ease of operation, the floor is made of removable panels equipped with rollers. 
+            This enables quick and easy access to the batteries for maintenance and improves loading and unloading of cargo.
         </p>
 
         <p>
             <br></br>
-            <strong>Validating Initial Weight Estimates:</strong> 
+            <strong>Aerodynamics</strong> 
 
             <br></br>
 
-            After the initial sizing and outer mold line were completed, I went to validate and optimize the initial weight estimates.
-            Using different methods outlined in different design textbooks, I was able to use a statistical method that required different geometry parameters of the different components.
-            This method was favorable as it allowed for a more direct weight analysis of our specific vehicle, where we could account for the differences for our category of aircraft.
-            I was able to account for the weight of batteries, generators, motors and fuel more accurate and was able to better tailor the weight for the aircraft.
-            It was found using this method the maximum takeoff weight was about 2,500 lb less than the initial estimate accounting for all components and systems.
-            This method was good as it served as a validation of our previous methods as well as optimization as our aircaft was already drastically out performed by other vehicles in its class, as all of the requried systems for batteries and electric propulsion add a lot of weight.
+            NACA 23015 and 23012 airfoils were selected for the root and tip respectively. 
+            They offered good performance, with a high efficiency and high stall angle. 
+            The taper ratio increased from 0.3 to 0.6 to improve lift distribution and wing area, which helped to amplify the effects of DEP. 
+            A straight leading edge was selected to simplify motor integration and promote uniform spanwise flow. 
+            Propeller placement and spacing were optimized to maximize induced velocity over the wing. 
             
+            <br></br>
+            Double-slotted Fowler flaps were selected to further improve DEP effectiveness. 
+            They can deflect up to 55 degrees yielding a CLmax of 5.5 at takeoff and landing. 
+            A CLmax of 1.8 is achieved in cruise. In the takeoff roll, a CLmax of 4.9 is achieved before the pitch up starts. 
+            CLmax at takeoff occurs at an angle of attack of 7 degrees, which the aircraft can easily achieve. 
+
+            <br></br>
+
+            Drag buildup gave parasitic drag of 0.0185 at takeoff and landing and 0.0349 in cruise. 
+            The induced drag dominates during takeoff and landing due to the high lift. 
+            At takeoff and landing, the induced drag is 1.018, and at cruise it is 0.0118. 
+            This gives a total CD of 1.053 at takeoff and landing and 0.02242 in cruise.
         </p>
 
         <p>
             <br></br>
-            <strong>Iterating the Design</strong> 
+            <strong>Takeoff and Landing Performance</strong> 
 
             <br></br>
-            
-            After the first design review, some features of the design were to be changed, specifically those of the the sizing.
-            The fuselage extended in all dimensions, the wing area increased, and the empennage had a change from a four surface tail to a T-Tail.
-            With these changes, a redesign of the fuselage commenced.
-            
+
+            The aircraft achieves 190 ft takeoff and 155 ft landing distances, which well exceeds the requirements of the RFP, enabling operations from unimproved surfaces and carrier decks. 
+            This type of performance is comparable to aircraft such as the Electra Aero EL9.
         </p>
 
-        <p>
-            <br></br>
-            <strong>Fuselage Updates</strong> 
-
-            <br></br>
-            
-            As mentioned previously, the fuselage sizing increased.
-            This allowed for far greater interior volume.
-            With this increase in the volume, the interior sizing was able to completed. 
-            The first thing done was sizing the cockpit for two 95th percentile pilots.
-            The cockpit was sized in accordance with Advisory Circular 25.773-1.
-            While the aircraft was not to be certified under 14 CFR, regulations under 14 CFR was used if possible.
-            
-            <br></br>
-            <div class="photo-grid_2">
-                <img src="Prelim/angles_side.jpg">
-                <img src="Prelim/Cockpit Angles TOP.jpg">
-            </div>   
-            <br></br>
-
-            Aft of the cockpit, the generator and cargo region of the aircraft placed. 
-            The aircraft takes cargo with standard 40" x 40" cargo pallets. 
-            This enables the aircraft to have a maximum cargo volume of 304 cubic feet.
-            The aircraft has a total of 8 pallets, arranged in two rows of four.
-
-            <div class="content-pics">
-                <img src="Prelim/Generators and Payload Bay.jpg" alt="Project Image"  style="border-color: white;height: 400px;">
-                Fuselage Interior Layout 
-            </div> 
-            <br></br>
-
-            The payload bay floor is lined with rollers to allow for quicker and easier movement of cargo within the aircraft.
-            Additionally, the floor has eight removable panels that can be removed for quick and easy access to the battery storage compartment.
-            <br></br>
-            
-            <div class="content-pics">
-                <img src="Prelim/Payload Floor.jpg" alt="Project Image"  style="border-color: white;height: 400px;">
-                Fuselage Interior Layout 
-            </div> 
-            <br></br>
-
-
-        </p>
-
-        <p>
-            <br></br>
-            <strong>Distributed Electric Propulsion</strong> 
-
-            <br></br>      
-            A key part of this aircraft is its STOL capabilities.
-            To meet these requirements, the aircraft employs Externally Blown Flaps (EBF).
-            With EBFs, the amount of lift generated over the flaps increases dramatically.
-            To best enhance these effects, a two element slotted fowler flap was designed.
-            <br></br>
-            
-            <div class="content-pics">
-                <img src="Prelim/flaps.jpg" alt="Project Image"  style="border-color: white;height: 400px;">
-                Two Element Slotted Fowler Flap
-            </div> 
-            <br></br>
-            The change in lift coefficient and maximum lift coefficient were obtained using methods outlined in DATCOM.
-            The 
-
-        </p>
-
-        <p>
-            <br></br>
-            <strong>Conclusions:</strong> 
-
-            <br></br>
-            
-            During this project, I learned a lot of lessons.
-            The biggest lessons are the sheer importance of teammates and working well with a team.
-            This project was very intense and there were a lot of different challenges, having a good team of people that are not only hard workers, but people you can trust, is of the utmost importance.
-            Furthermore, I learned a lot about the different areas of design for an aircraft.
-            Throughout the tenure of this project, I worked in nearly every area of the project at one point or another.
-            This project was very substantial and I feel that I came out more knowledgeable and more eager to apply my knowledge in the real world.
-
-
-        </p>
 
     </section>
     
