@@ -133,20 +133,19 @@ nav .linkedin-link img {
 }
 
 .classes {
-    text-align: center;
+    display: flex;
+    gap: 1rem;
+    align-items: stretch; /* default, but explicit */
 }
 
 
-.class-list {
-    float: left;
+.class-list,
+.software {
+    flex: 1;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 1rem;
-    flex: 1 1 calc(33% - 2rem);
-    margin: 1rem;
-    text-align: left;
-    width: 40%;
     text-align: center;
 }
 
@@ -161,17 +160,6 @@ nav .linkedin-link img {
 }
 
 
-.software {
-    float: right;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    flex: 1 1 calc(33% - 2rem);
-    margin: 1rem;
-    text-align: center;
-    width: 40%;
-}
 
 .about_pic{
     float: right;
