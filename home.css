@@ -191,3 +191,13 @@ nav .linkedin-link img {
     margin: 1rem;
     width: 30%;
 }
+
+.content-pics {
+    text-align: center;
+    
+}
+
+.content-pics img {
+    width: 80%;
+    border: 2px solid black;
+}
