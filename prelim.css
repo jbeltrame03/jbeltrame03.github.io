@@ -117,7 +117,7 @@ footer {
     border: 2px solid black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .photo-grid_2 {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
