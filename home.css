@@ -93,7 +93,6 @@ nav .linkedin-link img {
     text-align: center;
 }
 
-
 .grid-item img {
     width: 100%;
     height: auto;
@@ -101,6 +100,7 @@ nav .linkedin-link img {
     object-fit: contain;
     border-radius: 8px;
 }
+
   
   .grid-item p {
     margin: 10px 0;
@@ -132,31 +132,23 @@ nav .linkedin-link img {
     grid-template-columns: 50% 50%; /* Two columns, each 50% */
 }
 
-.classes-row {
-    display: flex;
-    gap: 1rem;
-    align-items: stretch;
-    margin: 1rem 0;
+.classes {
+    text-align: center;
 }
 
-.class-list,
-.software {
-    flex: 1;
+
+.class-list {
+    float: left;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1rem;
+    flex: 1 1 calc(33% - 2rem);
+    margin: 1rem;
+    text-align: left;
+    width: 40%;
     text-align: center;
-    box-sizing: border-box;
 }
-
-.class-list ul,
-.software ul {
-    padding-left: 0;
-    margin: 0;
-    list-style-position: inside;
-}
-
 
 
 .about {
@@ -169,6 +161,17 @@ nav .linkedin-link img {
 }
 
 
+.software {
+    float: right;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    flex: 1 1 calc(33% - 2rem);
+    margin: 1rem;
+    text-align: center;
+    width: 40%;
+}
 
 .about_pic{
     float: right;
