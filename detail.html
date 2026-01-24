@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aircraft Preliminary Design</title>
+    <link rel="stylesheet" href="prelim.css">
+</head>
+<body>
+
+<header>
+    <h1>Senior Capstone Design: Aircraft Detailed Design</h1>
+    <nav>
+        <div class="nav-links">
+            <a href="resume.pdf" target="_blank">Resume</a>
+           <a href="https://www.linkedin.com/in/joshbeltrame" target="_blank" class="linkedin-link">
+                <img src="linkedinLogo.png" alt="LinkedIn" height="200" width="200"></a>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="project-details">
+        <a href="index.html" class="back-link">Back to Portfolio</a>
+        <h2>Detailed Design of Hybrid-Electric Military Utility Aircraft Wingbox</h2>
+        <img src="Detail/wingbox.png" alt="Project Image">
+
+
+        
+        <br></br>
+        <p>
+            <br></br>
+            <strong>My Roles:</strong> 
+
+            <ul>
+            <li>Modelling/CAD Lead</li>
+            <li>Wingbox Sizing</li>
+            <li>Motor Mount Design and Analysis</li>
+            </ul>
+        </p>
+
+
+        <p>
+            <br></br>
+            <strong>Background:</strong> 
+            <br></br>
+            For the second part of my senior capstone, I was on a team performing the detailed design of an aircrafts wingbox. 
+            We chose to design the wingbox of the aircraft that we designed in preliminary design the previous semester.
+        </p>
+
+
+        <p>
+            <br></br>
+            <strong>Design Requirements:</strong>
+            <br></br>
+
+            <ul>
+                <li>A fatigue life greater than 40,000 flight hours</li>
+                <li>An inspection interval greater than 1,000 flight hours</li>
+                
+            </ul>
+
+        </p>
+        
+
+
+        <p>
+            <br></br>
+            <strong>Loads</strong> 
+
+            <br></br>
+
+            The first thing I did was generate a V-n diagram for the aircraft. 
+            This was done for two different regimes: A clean configuration in cruise, and flaps deflected configuration in takeoff/landing. 
+            From these two graphs, a maximum positive load factor of 3.8g was identified and a maximum negative load factor of -1.8g was identified. 
+            These are both during the flaps down configuration.
+            <br></br>
+            <div class="content-pics">
+                <img src="Detail/Vn_Clean.png" alt="Project Image">
+                Clean Configuration V-n Diagram
+                <br></br>
+                <img src="Detail/Vn_flaps.png" alt="Project Image">
+                Flaps Down Configuration V-n Diagram
+                <br></br>
+            </div>
+
+            Upon identifying the limit loads, a factor of safety of 1.5 was applied to determine the ultimate positive load factor of 5.7g and a ultimate negative load factor of -2.7g. 
+            Using this, the shear and moment diagrams were generated start the initial sizing of the wingbox.
+            <br></br>
+            <div class="content-pics">
+                <img src="Detail/shear.png" alt="Project Image">
+                Shear Force Diagram
+                <br></br>
+                <img src="Detail/moment.png" alt="Project Image">
+                Bending Moment Diagram
+                <br></br>
+            </div>
+        </p>
+
+        <p>
+            <br></br>
+            <strong>Initial Wingbox Sizing</strong> 
+
+            <br></br>
+
+            The initial sizing of the wingbox assumed an ideal wingbox configuration as shown below. 
+            Initially, a three-spar design was selected to handle the large bending moment at the root. 
+            However, it was determined that this added unnecessary weight, complexity, and effected the fuel tank integration. 
+            Thus, the design shifted to a two-spar design with stringers lining the top and bottom of the wingbox.
+            <br></br>
+            <div class="content-pics">
+                <img src="Detail/wingbox_1.png" alt="Project Image">
+                Idealized Wingbox
+                <br></br>
+                <img src="Detail/wing_XSec 2.png" alt="Project Image">
+                Initial Wingbox Design
+                <br></br>
+                <img src="Detail/cross_sec2.png" alt="Project Image">
+                Final Wingbox Design
+            </div>
+        </p>
+
+        <p>
+            <br></br>
+            <strong>Spar Design</strong> 
+
+            <br></br>
+
+            The spar cap design initially consisted of two I-beam configurations. 
+            However, this design was changed to be two angled spar caps, with the angles pointing inwards. 
+            I chose to change this because this caused interference on the trailing edge with the flap and control surface integration. 
+            Since the front spar was around the location of maximum camber, the forward-facing spar cap had a lot of curvature, which added unnecessary complexity to manufacturing and integration. 
+            Thus, a final spar cap design was selected. 
+            <br></br>
+            <div class="content-pics">
+                <img src="Detail/Front  Spar PPT.PNG" alt="Project Image">
+                Forward Spar
+                <br></br>
+                <img src="Detail/Rear Spar ppt.PNG" alt="Project Image">
+                Aft Spar
+                <br></br>
+            </div>
+
+        </p>
+
+        <p>
+            <br></br>
+            <strong>Stringer Design</strong> 
+
+            <br></br>
+
+            For the stringers, we initially chose to use standard z-stringers. 
+            However, I changed these to J-stringers as this allowed for two rows of fasteners to be installed onto each stringer, improving redundancy and connection to the wing planform.
+             
+            <br></br>
+            <div class="content-pics">
+                <img src="Detail/Stringer Cross Section ppt.PNG" alt="Project Image">
+                J-Stringer Design
+                <br></br>
+                
+            </div>
+        </p>
+
+        <p>
+            <br></br>
+            <strong>Fuel Tank Design</strong> 
+
+            <br></br>
+            The fuel tank was designed to be integral, meaning that it was a structurally significant part of the wing. 
+            The reason I did this was to provide as much reinforcement in the root of the wing. 
+            Since this was a hybrid aircraft, the moment at the root was immense as there is not much fuel distributed throughout the wing to counteract it and the electric motors mounted onto the wing do not weigh a lot. 
+            As such, having the integral fuel tank would serve to increase the amount of structure at the root to resist the bending. 
+            Additionally, the ribs go through the fuel tank, which helps to eliminate sloshing of the fuel during in flight.
+            <br></br>
+            <div class="content-pics">
+                <img src="Detail/fuel_tank.png" alt="Project Image">
+                Integral Fuel Tank
+            </div>
+        </p>
+
+        <p>
+            <br></br>
+            <strong>Motor Mount Design</strong> 
+
+            <br></br>
+            The motor mount was a pivotal part of this aircraft. 
+            Electric motors carry high torques and create a large loading on the mount. 
+            The design I chose to use was a truss structure mounted on the middle of the wing into the spar. 
+            There is a bracket that connects to the front of the truss, serving as a mounting point for the motor, and there is a plate on the bottom of the truss, which helps to alleviate stress concentrations on the front spar web. 
+            The initial design is shown below.
+            <br></br>
+            <div class="content-pics">
+                <img src="Detail/MotorMount_0.png" alt="Project Image">
+                Initial Motor Mount Design
+            </div>
+
+            This design was taken and iteratively designed using NX Femap to identify the critical stresses in the truss as well as the plate that mounts the motor to the truss. 
+            I established design criteria for the mount to ensure safety and longevity.
+            
+            <ul>
+                <li>&lt;one degree of rotational deformation</li>
+                <li>&lt;0.5 in degree of of translational deformation</li>
+                <li>&lt;half of the yield stress of the material</li>
+            </ul>
+            The final design is shown below as well as all the analyses indicating that this design works and is acceptable per the requirements.
+
+            <div class="content-pics">
+                <img src="Detail/motor_mount_1.png">
+                Final Motor Mount Design
+                <br></br>
+                <img src="Detail/MountTranslation.png">
+                Translational Deformation (inches)
+                <br></br>
+                <img src="Detail/rotation.png">
+                Rotational Deformation (radians)
+                <br></br>
+                <img src="Detail/VonMises 2.png" alt="Project Image">
+                Von Mises Stress in Bracket (PSI)
+                <br></br>
+                <img src="Detail/BeamStress.png" alt="Project Image">
+                Stress in Truss (PSI)
+            <br></br>
+        </div>
+        </p>
+
+        <p>
+            <br></br>
+            <strong>DADTA</strong> 
+
+            <br></br>
+            Lastly, durability and damage tolerance analysis was performed of high stress areas. The team established 5 key locations:
+            <ul>
+                <li>Front Lug Pin</li>
+                <li>Front Lug and Bracket Joint </li>
+                <li>Front Bracket Spar Hole</li>
+                <li>Front Spar Cap Hole</li>
+                <li>Rear Luck and Bracket Joint</li>
+            </ul><br></br>
+
+            DADTA was performed and all components were found to be over 40,000 flight hours for an economic life and over 3,500 flight hours for an inspection interval.
+        </p>
+
+
+    </section>
+    
+</div>
+
+
+</body>
+</html>
