@@ -150,6 +150,14 @@ nav .linkedin-link img {
     box-sizing: border-box;
 }
 
+.class-list ul,
+.software ul {
+    padding-left: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+
 
 .about {
     background: #fff;
