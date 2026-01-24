@@ -132,12 +132,12 @@ nav .linkedin-link img {
     grid-template-columns: 50% 50%; /* Two columns, each 50% */
 }
 
-.classes {
+.classes-row {
     display: flex;
     gap: 1rem;
-    align-items: stretch; /* default, but explicit */
+    align-items: stretch;
+    margin: 1rem 0;
 }
-
 
 .class-list,
 .software {
