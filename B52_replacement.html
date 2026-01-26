@@ -52,10 +52,10 @@
                 <li>Payload: &lt; 100,000 lb</li>
                 <li>Range: 13,000 nmi</li>
                 <li>Cruise Speed: &lt; Mach 0.85</li>
-                <li>Ceiling Altitude: 60,000 ft</li>
                 <li>Same footprint as the B-52 (see below)</li>
                 <li>Carry an armament consisting of GBU-57s (MOP) as well as GBU-43s (MOAB)</li>
                 <li>All armament stored internally</li>
+                <li>Capable of autonomous flight</li>
             </ul>
 
             <br></br>
@@ -122,17 +122,24 @@
             <br></br>
             <strong>Configurations Analyzed:</strong> 
             <br></br>
-            The first configuration I analyzed was a Blended-Wing-Body (BWB). 
+            The first configuration I analyzed was a Flying Wing with a V-Tail.
             I chose this design due to the reduction it offers in overall wetted area having minimal surfaces. 
             <br></br>
             <div class="content-pics">
-                <img src="B-52_replacement/b-52.avif" alt="Project Image">
-                Concept #1 - Blended Wing Body
+                <img src="B-52_replacement/c1_iso.png" alt="Project Image">
+                Concept #1 - Flying Wing with V-Tail
             </div>
+
+            <div class="photo-grid_2">
+            <img src="B-52_replacement/c1_top.png">
+            <img src="B-52_replacement/c1_front.png">
+            </div>  
+
+
             <br></br>
 
 
-            The first study that was done was a fuel burn sensitivity. 
+            The first study that was done was a fuel load sensitivity. 
             The goal is to find a configuration that requires the minimum amount of fuel for the target range. 
             Using this I was able to identify a fuel amount that will meet the required range with some reserves. 
             The amount of fuel required can consequently be used to identify the total required volume for the design. 
@@ -163,6 +170,54 @@
                 Concept #1 - Thrust Required & Thrust Available verus Mach
             </div>
             <br></br>
+
+            The second configuration tested was a flying wing planform that had no stabilizers, but a fuselage along the root of the planform for storage.
+            Like the previous flying wing planform, this one was chosen for the reduction to the wetted area, however it did not incorporate tail surfaces for control or stability, instead relying on a flight computer.
+            <br></br>
+            div class="content-pics">
+                <img src="B-52_replacement/c3_iso.png" alt="Project Image">
+                Concept #2 - Flying Wing with Fuselage
+            </div>
+
+            <div class="photo-grid_2">
+            <img src="B-52_replacement/c3_top.png">
+            <img src="B-52_replacement/c3_front.png">
+            </div> 
+
+            <br></br>
+
+
+            I ran the same studies on this configuration as the previous to gauge the differences. 
+            Concept #2, although not extremely different, requires just a little less fuel to achieve the goal range of 13,000 nmi.
+            <br></br>
+            <div class="content-pics">
+                <img src="B-52_replacement/c3_fuel.png" alt="Project Image">
+                Concept #2 - Fuel Sensitivity Study
+            </div>
+            <br></br>
+            Compared to Concept #1, Concept #2 is not as efficient as Concept #1 at a cruise mach number of M = 0.9. 
+            This is due to the reduced wing area, which in turns requires a larger lift coefficient at cruise (CL = W/qS) and as such raises the induced drag. 
+            If this concept moves forward, optimization would need to occur to reduce the induced drag whilst not dramatically raising the structural weight.
+            <br></br>
+            <div class="content-pics">
+                <img src="B-52_replacement/c3_drag.png" alt="Project Image">
+                Concept #2 - Drag Buildup at Cruise Conditions (h = 40,000 ft, M=0.9)
+            </div>
+            <br></br>
+
+            Lastly, the thrust required was evaluated. 
+            Concept #2 employs the same Trent XWB-97 engines as Concept #1. 
+            However, the thrust required for lower mach cruise speeds is not attained. 
+            A contributing factor to the reason the thrust required is so great at lower speeds is the high induced drag. 
+            This will be corrected and updated upon if this configuration moves forward. 
+            <br></br>
+            <div class="content-pics">
+                <img src="B-52_replacement/c3_thrust_req.png" alt="Project Image">
+                Concept #2 - Thrust Required & Thrust Available verus Mach
+            </div>
+            <br></br>
+
+
         </p>
 
     </section>
