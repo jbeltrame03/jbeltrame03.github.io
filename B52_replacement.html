@@ -122,27 +122,53 @@
                 <img src="B-52_replacement/newplot (5).png" alt="Project Image">
             </div>
             <br></br>
-        </p>
 
+            Additionally, I generated numerous carpet plots to evaluate the sensitity of the design to different parameters. 
+            I first generated a carpet plot evaluating the sensitity of T/W with oswalds efficiency and parasite drag. 
+            With this, I was able to determine that T/W was impacted far more by parasite drag. 
+            <br></br>
+            <div class="content-pics">
+                <img src="B-52_replacement/newplot (1).png" alt="Project Image">
+                Carpet Plot - T/W vs Oswalds Efficiency and CDo
+            </div>
+            <br></br>
+
+            Using this, I wanted to see how oswalds efficiency was impacted by aspect ratio and leading edge sweep. 
+            I generated a carpet plot for this as well. 
+            It shows at lower sweeps, aspect ratio dominates, but as sweep increases it starts to become more dominant. 
+            This is particularly important I found, as I started to notice that there was a significant amount of lift induced drag. 
+            This was in part due to the high weight causing a high CL, and since the aspect ratio was so low it caused for minimal reductions. 
+            This will be addressed in the coming sections.
+            <br></br>
+            <div class="content-pics">
+                <img src="B-52_replacement/newplot (2).png" alt="Project Image">
+                Carpet Plot - Oswalds Efficiency vs AR and LE sweep
+            </div>
+            <br></br>
+
+            The last sensitity I studied was how aspect ratio and wing loading impacted the T/W. 
+            At lower W/S, aspect ratio has almost no impact. 
+            At higher W/S, aspect ratio starts having a larger impact. 
+            This helped to drive some of the concepts that were evaluated (higher AR vs lower AR)
+            <br></br>
+            <div class="content-pics">
+                <img src="B-52_replacement/newplot (3).png" alt="Project Image">
+                Carpet Plot - T/W vs W/S and AR
+            </div>
+            <br></br>
+        </p>
 
         <p>
             <br></br>
             <strong>Configurations Analyzed:</strong> 
             <br></br>
-            The first configuration I analyzed was a Flying Wing with a V-Tail.
-            I chose this design due to the reduction it offers in overall wetted area having minimal surfaces. 
+            The first configuration I analyzed was a blended wing body. 
+            I chose tis configuration as it offered a balance of aerodynamic efficiency and internal volumes for fuel and payload storage.
             <br></br>
             <div class="content-pics">
-                <img src="B-52_replacement/c1_iso.png" alt="Project Image">
-                Concept #1 - Flying Wing with V-Tail
+                <img src="B-52_replacement/c1_CAD.png" alt="Project Image">
+                Concept #1 - Blended Wing Body
             </div>
-
-            <div class="photo-grid_2">
-            <img src="B-52_replacement/c1_top.png">
-            <img src="B-52_replacement/c1_front.png">
-            </div>  
-
-
             <br></br>
 
 
@@ -167,72 +193,20 @@
             </div>
             <br></br>
 
-            The next configuration study was evaluating the thrust required versus thrust available. 
-            For this design, a Trent XWB-97 was used. 
-            A thrust model was built using the method outlined by Snorri Gudmundsson for high BPR turbofans.
-            This was performed at cruise conditions (h = 40,000 ft, M=0.9). 
-            <br></br>
-            <div class="content-pics">
-                <img src="B-52_replacement/c1_thrust_req.png" alt="Project Image">
-                Concept #1 - Thrust Required & Thrust Available verus Mach
-            </div>
-            <br></br>
-
-            The second configuration tested was a flying wing planform that had no stabilizers, but a fuselage along the root of the planform for storage.
-            Like the previous flying wing planform, this one was chosen for the reduction to the wetted area, however it did not incorporate tail surfaces for control or stability, instead relying on a flight computer.
-            <br></br>
-            <div class="content-pics">
-                <img src="B-52_replacement/c3_iso.png" alt="Project Image">
-                Concept #2 - Flying Wing with Fuselage
-            </div>
-
-            <div class="photo-grid_2">
-            <img src="B-52_replacement/c3_top.png">
-            <img src="B-52_replacement/c3_front.png">
-            </div> 
-
-            <br></br>
+            As previously mentioned, the induced drag of this design was quite large and impactful. 
+            It made up approximately 80% of the total drag. 
+            This led to a study and investigation into the implementation of winglets for a BWB design, as well as the evaluation of a higher AR design. 
+            Furthermore, these engines are large and high BPR. 
+            At this point, I decided I wanted to try and evaluate if it were feasible to implement a low BPR design such that the engines coud be embedded. 
+            To do this, I would need to reduce the overal drag and the lift required. 
+            These are things that were more heavily considered going forward from this point and will can be seen in future works.
 
 
-            I ran the same studies on this configuration as the previous to gauge the differences. 
-            Concept #2, although not extremely different, requires just a little less fuel to achieve the goal range of 13,000 nmi.
-            <br></br>
-            <div class="content-pics">
-                <img src="B-52_replacement/c3_fuel.png" alt="Project Image">
-                Concept #2 - Fuel Sensitivity Study
-            </div>
-            <br></br>
-            Compared to Concept #1, Concept #2 is not as efficient as Concept #1 at a cruise mach number of M = 0.9. 
-            This is due to the reduced wing area, which in turns requires a larger lift coefficient at cruise (CL = W/qS) and as such raises the induced drag. 
-            If this concept moves forward, optimization would need to occur to reduce the induced drag whilst not dramatically raising the structural weight.
-            <br></br>
-            <div class="content-pics">
-                <img src="B-52_replacement/c3_drag.png" alt="Project Image">
-                Concept #2 - Drag Buildup at Cruise Conditions (h = 40,000 ft, M=0.9)
-            </div>
-            <br></br>
-
-            Lastly, the thrust required was evaluated. 
-            Concept #2 employs the same Trent XWB-97 engines as Concept #1. 
-            However, the thrust required for lower mach cruise speeds is not attained. 
-            A contributing factor to the reason the thrust required is so great at lower speeds is the high induced drag. 
-            This will be corrected and updated upon if this configuration moves forward. 
-            <br></br>
-            <div class="content-pics">
-                <img src="B-52_replacement/c3_thrust_req.png" alt="Project Image">
-                Concept #2 - Thrust Required & Thrust Available verus Mach
-            </div>
-            <br></br>
-
-
-        </p>
         <br></br>
             <strong>Current Status:</strong> 
             <br></br>
             Currently, I am working evaluating multiple different configurations for an initial/baseline analysis to see if they are feasible. 
             Upon the completion of this, I will be moving forward and choosing a design that I deem most suitable for completing the mission, as well as refining the design with optimization. 
-        <p>
-
         </p>
 
     </section>
